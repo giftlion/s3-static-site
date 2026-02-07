@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Site - AWS S3</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">Deployed to AWS S3</h1>
+                <p class="subtitle">Your static site is live and ready</p>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="hero">
+                <div class="hero-content">
+                    <h2 class="hero-title">Welcome to Your Static Site</h2>
+                    <p class="hero-text">This site is automatically deployed to AWS S3 using GitHub Actions CI/CD pipeline.</p>
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">🚀</div>
+                            <h3>Fast Deployment</h3>
+                            <p>Automated deployments on every push to main</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">☁️</div>
+                            <h3>AWS S3 Hosting</h3>
+                            <p>Reliable and scalable cloud hosting</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🔄</div>
+                            <h3>CI/CD Pipeline</h3>
+                            <p>Seamless integration with GitHub Actions</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="info-section">
+                <div class="info-content">
+                    <h2>Getting Started</h2>
+                    <p>Make changes to your site and push to GitHub. The CI/CD pipeline will automatically deploy your changes to S3.</p>
+                    <div class="code-block">
+                        <code>git add .</code><br>
+                        <code>git commit -m "Update site"</code><br>
+                        <code>git push origin main</code>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2026 Static Site. Deployed with ❤️ using AWS S3 & GitHub Actions</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
