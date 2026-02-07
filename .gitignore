@@ -1,3 +1,10 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+
 # OS files
 .DS_Store
 Thumbs.db
@@ -16,7 +23,4 @@ npm-debug.log*
 # Environment variables
 .env
 .env.local
-
-# Build outputs (if you add a build step later)
-dist/
-build/
+.env.*.local
